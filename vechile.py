@@ -10,7 +10,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Load data — relative path for deployment safety
-df = pd.read_csv(dataset.csv)
+df = pd.read_csv("dataset.csv")
 
 
 # Encode categorical variables
