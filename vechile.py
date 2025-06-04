@@ -10,7 +10,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Load data
-df = pd.read_csv('cars.csv')
+df = pd.read_csv("C:\Users\kotra\Downloads\vehicle_price_prediction\Vehicle Price Prediction\dataset.csv")
 
 # Encode categorical variables
 label_enc_make = LabelEncoder()
